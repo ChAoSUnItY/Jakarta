@@ -1,6 +1,6 @@
 package io.github.chaosunity.ast
 
-abstract class Statement
+sealed abstract class Statement
 object Statement:
   case class VariableDeclaration(declarationType: VariableDeclaration.DeclarationType, variableName: String, value: Expression) extends Statement
   object VariableDeclaration:
