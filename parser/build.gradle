@@ -12,3 +12,9 @@ repositories {
 dependencies {
     implementation "org.scala-lang:scala3-library_3:3.0.1"
 }
+
+tasks.withType(ScalaCompile) {
+    scalaCompileOptions.with {
+        targetCompatibility = ''
+    }
+}

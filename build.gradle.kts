@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation(project("lexer"))
+    implementation(project("parser"))
 
     implementation("org.codehaus.groovy:groovy:1.5.0")
 }
