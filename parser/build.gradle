@@ -1,0 +1,14 @@
+plugins {
+    id 'scala'
+}
+
+group 'io.github.chaosunity'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.scala-lang:scala3-library_3:3.0.1"
+}
